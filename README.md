@@ -152,6 +152,9 @@ void loop() {
   digitalWrite(trigd, LOW); 
   delayMicroseconds(2);
   digitalWrite(trigd, HIGH); 
+
+PF Robotics Point 7. Engineering Factor
+The chassis used to build the autonomous vehicle was purchased and modified from a remote-controlled car sold on Mercado Libre
   delayMicroseconds(10);
   digitalWrite(trigd, LOW);
   
@@ -204,3 +207,17 @@ void loop() {
     digitalWrite(pin4, HIGH); digitalWrite(pin19, LOW);
     Serial.println(“Forward Movement”);
   } }
+
+PF Robotics Point 7. Engineering Factor
+The chassis used to build the autonomous vehicle was purchased and modified from a
+remote-controlled car sold on Mercado Libre.
+
+Car Modifications
+1. Internal Changes: The chassis of the remote-controlled car was opened and the circuit board was removed, disconnecting all the connected wires, which were:
+1.1 - Front and rear lights
+1.2 - Front motor for Ackerman operation and rear motor for forward/reverse movement
+1.3 - On/Off switch
+2. Removal of 4x4 Traction
+The front and rear mechanisms that provided four-wheel drive via a bar transmitting movement were also opened. This bar was removed to eliminate the front-wheel drive function.
+3. Internal Expansion
+A box was opened that originally housed the batteries that came with the car. Since the batteries were no longer needed, the space was cut to create more room inside.
